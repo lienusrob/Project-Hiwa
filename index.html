@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hiwa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main id="general-wrapper">
+        <!-- Navbar -->
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active"></a>
+            <a href="#about">About</a>
+            <a href="#values">Our Values</a>
+            <a href="#act">Activites</a>
+            <a href="#help">How can you Help</a>
+            <a href="#contact1">Get in Touch</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <!-- Landing page -->
+        <section id="landing-page">
+            <div class="landing-element">
+                <h1>Welcome to Project Hiwa</h1>
+                <p>Get to know more about our Athens mission to help Refugees and people in need</p>
+            </div>
+        </section>
+
+        <!-- About -->
+        <div class="About" id="about">
+            <div class="backgroundimage">
+                <h3 class="About1">About Us</h3>
+                <div class="aboutcontent">
+                    <p>Project Hiwa is a sports center run by asylum seekers and open to all. A rare places in Athens
+                        offering sports for free. It started around the summer of 2019. and since that moment it has
+                        become
+                        an important place to go for many children, women and men, regardless of origin, religion and
+                        language.</p>
+                    <p> The project is co founded by Dana and Kamara, 2 athletes that were also invοlved in the start of
+                        Yoga
+                        and Sport for Refugees on Lesvos. In September 2020 Yoga and Sport for Refugees was approached
+                        take over the project and have it under their umbrella. </p>
+                    <p> Project Hiwa belongs to the Non Profit organsiation <a href="https://sportforrefugees.org"> Yoga
+                            and
+                            Sports for Refugees</a>which is located on the greek Island Lesvos</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our values -->
+
+        <div class="ourvalue" id="values">
+            <div class="grid-container ourvalue" id="values">
+                <div class="ourvalues1">
+
+
+                    <h3 id="valueshover">Our values </h3>
+                    <h4>Interculturarity </h4>
+                    <p>In Yoga and Sport/ Project Hiwa for refugees there is people from all over the world, there is a
+                        mixing of cultures, religions and languages. We want to establish a link between cultures
+                        through
+                        sport so that everyone feels integrated and part of the community.</p>
+                    <h4>No Borders </h4>
+                    <p>Doing sport with people from all over the world we cross the limits of national borders. When we
+                        do sport we have partners and rivals, we share equipment and objectives; the important thing
+                        to achieve the challenge, everything else loses importance.</p>
+                    <h4>No Limitations </h4>
+                    <p>At Project Hiwa we do not want anyone to set limits when we talk about sports, we want everyone
+                        to maximize theirself, always move forward and never surrender. We understand competition and
+                        effort as values for self-esteem, which dignify the individual and give an objective during the
+                        forced stay.</p>
+                    <h4>Empowerment </h4>
+                    <p>The situation in which refugees in Lesbos and Athens are currently living is shameful and
+                        denigrating. We want them to regain dignity, participate in the community and build trust in
+                        their own capacities, recovering responsibilities, rights and duties.</p>
+                </div>
+                <div class="valueimage"></div>
+            </div>
+        </div>
+
+        <!-- Activities -->
+        <div class="act" id="act"> </div>
+        <section id="activities-wrapper">
+            <h3 class="activities-header">Activities</h3>
+            <div id="activities-text">
+                <ul>
+                    <li>At Project Hiwa and Yoga and Sports we count more than 108 hours of sport classes per week split in different
+                        activities. The median number of student per class are for martial arts (25-30), field-sports
+                        (20-25), running (10) and yoga (10-15). The trainings are alocate to different area in Athens as
+                        for example the YSR Gym where martial arts and dancing happen. In 2019, we attended 9 special
+                        running competion. </li><br>
+                    <li>We develop our activity around two main sports: Yoga (Relax Yoga, Vinyasa yoga, Akroyoga or
+                        Thai-yoga massage) and Martial Arts (Wrestling, Kickboxing, Muy Thai, Jiu-Jitsu). Additionaly,
+                        we are conducting swimming classes, fitness sessions(body building, HIIT training,
+                        Weightlifting, Gymnasistcs-parkour), running sessions and dancing classes (Afro-house,
+                        Breakdance).</li><br>
+                    <li>Therefore, to privilege womens we have adapted varied classes only available for them such as
+                        Yoga, Zumba, Hip-Hop, Empowerment-self and defence. This allows refugees women to socialise and
+                        get involve without difficulties or shyness. Today, Project Hiwa is implement in Athens and
+                        Levos. Our aim is to develop our community all around the refugees camps as shown on the map
+                        above.</li><br>
+                </ul>
+            </div>
+        </section>
+
+       <!--  Quizz Section -->
+        <!-- <section id="quiz-wrapper">
+            <div>
+                <h3>QUIZ</h3>
+            </div>
+            <div id="quiz-container">
+                <div id="start">Start Quiz!</div>
+                <div id="quiz" style="display: none">
+                    <div id="question"></div>
+                    <div id="qImg"></div>
+                    <div id="choices">
+                        <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                        <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                        <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                    </div>
+                    <div id="timer">
+                        <div id="counter"></div>
+                        <div id="btimeGauge"></div>
+                        <div id="timeGauge"></div>
+                    </div>
+                    <div id="progress"></div>
+                </div>
+                <div id="scoreContainer" style="display: none"></div>
+            </div>
+        </section> --> 
+
+        <!-- Key numbers -->
+
+       <!--  <section id="number-wrapper">
+            <div class="card">
+                <img src="card1.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>NUMBERS OF REFUGEES</b></h4>
+                    <p>Today Greece count more than 50 000 refugees most of whom will remain permantly in the country.
+                        Most of the refugees that are legaly here and under the care of the Greek government are from
+                        Syria, Iraq and Afghanistan.</p>
+                </div>
+            </div><br>
+            <div class="card">
+                <img src="card3.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>ASYLUM STATISTICS</b></h4>
+                    <p>The total number of asylum application was 77 287 in 2019. Since 1989, the Greek government has
+                        accepted over 141 300 beneficiary aids. In 2018, 32 497 refugees arrived on the islands compared
+                        to 59 726 in 2019. </p>
+                </div>
+            </div><br>
+            <div class="card">
+                <img src="card5.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>WOMEN & CHILDREN</b></h4>
+                    <p>The gorvenment has taken action to ensure that all the refugees in Athens and on the the islands
+                        of Lesbos, Chios, Kos, Samos and Leros will obtain a job training and a psychological support so
+                        they can rebuild their lives. More than 50% of all the refugees in Greece are women and
+                        childrens. </p>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- How to help us  -->
+        <div class="help" id="help"> </div>
+    
+            <div id="help-title">
+                <h3>How to help us</h3>
+            </div>
+            <section id="help-container">
+            <div id="help-text">
+                <p>We are founded through 100% of independent donations. In fact, there is two main ways you can help us
+                    to make our work evolve and give more possibilities to refugees:</p>
+                <p>Through a financial support in donating through the DONATE button under this paragraph. In numbers,
+                    our general monthly cost is around 3500€ taking in account the gym facility (450€), the sports
+                    fields (350€), cleaning and maintenance (100€) and the car (300€). The projects cost are to help us
+                    buy furnitures to provide student with suitable outfits and required equipement. For the running
+                    training, the bus cost to the stadium is 80€ while the on competition day at Levos races it is
+                    around 500€ for registration fee per race.</p>
+                <p>Secondly, we are always in huge need of shorts and tee-shirts as well as jumoing ropes and
+                    elestatics. Regarding martial arts we often need to refurbish our stock of gloves, bandages as small
+                    and big pads. In addition to that, sport shoes, yoga mats, swimming shorts and towels, any kind of
+                    balls (football, volleyball,basket ball) are always welcome. Finally, for women activities, long
+                    tnights and long sleeves in big sizes is a requirement. </p>
+                      <a href="https://secure.squarespace.com/checkout/donate?donatePageId=5a77589324a69434ae6bee49"> If you want to help us please donate here  </a>
+            </div>
+         
+        </section>
+
+        <!-- Get In Touch -->
+
+        <div class="contact" id="contact1">
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">
+                    <h2>Contact Us</h2>
+                    <input type="text" class="field" placeholder="Your Name">
+                    <input type="text" class="field" placeholder="Your Email">
+                    <input type="text" class="field" placeholder="Phone">
+                    <textarea placeholder="Message" class="field"></textarea>
+                    <button class="btn">Send</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+       <div id="sticky">
+            <div class="row" id='footer'>
+                <div class="InnerSection col">
+                    <!-- Add Logo -->
+                    <h2 >Project Hiwa</h2>
+
+                </div>
+                <div class="InnerSection col">
+                    <h2 class="InnerHeading">Quick Links</h2>
+                    <ol>
+                        <li>
+                            <a href='#about'>Home</a>
+                        </li>
+                        <li>
+                            <a href='#about'>About Us</a>
+                        </li>
+                        <li>
+                            <a href='#contact1'>Contact Us</a>
+                        </li>
+                        <li>
+                            <a href='#help'>Donate</a>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="InnerSection col">
+                    <h2 class="InnerHeading IconList ">Contact Us</h2>
+                    <ol class='IconList'>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img class='SocialIcon'
+                                    src="data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xXyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIC0xLjk4MiAtMS44NDQgMCAtMTMyLjUyMiAtNTEuMDc3KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSItMzcuMTA2IiB4Mj0iLTI2LjU1NSIgeTE9Ii03Mi43MDUiIHkyPSItODQuMDQ3Ij48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZDUiLz48c3RvcCBvZmZzZXQ9Ii41IiBzdG9wLWNvbG9yPSIjZmY1NDNlIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYzgzN2FiIi8+PC9saW5lYXJHcmFkaWVudD48cGF0aCBkPSJtMS41IDEuNjMzYy0xLjg4NiAxLjk1OS0xLjUgNC4wNC0xLjUgMTAuMzYyIDAgNS4yNS0uOTE2IDEwLjUxMyAzLjg3OCAxMS43NTIgMS40OTcuMzg1IDE0Ljc2MS4zODUgMTYuMjU2LS4wMDIgMS45OTYtLjUxNSAzLjYyLTIuMTM0IDMuODQyLTQuOTU3LjAzMS0uMzk0LjAzMS0xMy4xODUtLjAwMS0xMy41ODctLjIzNi0zLjAwNy0yLjA4Ny00Ljc0LTQuNTI2LTUuMDkxLS41NTktLjA4MS0uNjcxLS4xMDUtMy41MzktLjExLTEwLjE3My4wMDUtMTIuNDAzLS40NDgtMTQuNDEgMS42MzN6IiBmaWxsPSJ1cmwoI1NWR0lEXzFfKSIvPjxwYXRoIGQ9Im0xMS45OTggMy4xMzljLTMuNjMxIDAtNy4wNzktLjMyMy04LjM5NiAzLjA1Ny0uNTQ0IDEuMzk2LS40NjUgMy4yMDktLjQ2NSA1LjgwNSAwIDIuMjc4LS4wNzMgNC40MTkuNDY1IDUuODA0IDEuMzE0IDMuMzgyIDQuNzkgMy4wNTggOC4zOTQgMy4wNTggMy40NzcgMCA3LjA2Mi4zNjIgOC4zOTUtMy4wNTguNTQ1LTEuNDEuNDY1LTMuMTk2LjQ2NS01LjgwNCAwLTMuNDYyLjE5MS01LjY5Ny0xLjQ4OC03LjM3NS0xLjctMS43LTMuOTk5LTEuNDg3LTcuMzc0LTEuNDg3em0tLjc5NCAxLjU5N2M3LjU3NC0uMDEyIDguNTM4LS44NTQgOC4wMDYgMTAuODQzLS4xODkgNC4xMzctMy4zMzkgMy42ODMtNy4yMTEgMy42ODMtNy4wNiAwLTcuMjYzLS4yMDItNy4yNjMtNy4yNjUgMC03LjE0NS41Ni03LjI1NyA2LjQ2OC03LjI2M3ptNS41MjQgMS40NzFjLS41ODcgMC0xLjA2My40NzYtMS4wNjMgMS4wNjNzLjQ3NiAxLjA2MyAxLjA2MyAxLjA2MyAxLjA2My0uNDc2IDEuMDYzLTEuMDYzLS40NzYtMS4wNjMtMS4wNjMtMS4wNjN6bS00LjczIDEuMjQzYy0yLjUxMyAwLTQuNTUgMi4wMzgtNC41NSA0LjU1MXMyLjAzNyA0LjU1IDQuNTUgNC41NSA0LjU0OS0yLjAzNyA0LjU0OS00LjU1LTIuMDM2LTQuNTUxLTQuNTQ5LTQuNTUxem0wIDEuNTk3YzMuOTA1IDAgMy45MSA1LjkwOCAwIDUuOTA4LTMuOTA0IDAtMy45MS01LjkwOCAwLTUuOTA4eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img class='SocialIcon'
+                                    src="data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjEgMGgtMThjLTEuNjU1IDAtMyAxLjM0NS0zIDN2MThjMCAxLjY1NCAxLjM0NSAzIDMgM2gxOGMxLjY1NCAwIDMtMS4zNDYgMy0zdi0xOGMwLTEuNjU1LTEuMzQ2LTMtMy0zeiIgZmlsbD0iIzNiNTk5OSIvPjxwYXRoIGQ9Im0xNi41IDEydi0zYzAtLjgyOC42NzItLjc1IDEuNS0uNzVoMS41di0zLjc1aC0zYy0yLjQ4NiAwLTQuNSAyLjAxNC00LjUgNC41djNoLTN2My43NWgzdjguMjVoNC41di04LjI1aDIuMjVsMS41LTMuNzV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+" />
+                            </a>
+                        </li>
+
+
+                    </ol>
+                </div>
+                <div class="Credits">
+                    Made with by David and Lienus
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
